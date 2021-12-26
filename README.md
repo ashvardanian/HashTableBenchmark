@@ -16,6 +16,6 @@ Keys are generated with the uniform ditribution. The hash function is set to `st
 
 Running `bash -i build.sh` will build following executables:
 
-* `./build/build/bin/mixed_ops_bench` - speed test comparing insertions, removals and lookups across containers.
-* `./build/build/bin/ram_usage_bench` - a benchmark analyzing the space overhead of each container, which shouldn't be called directly, only through `python ram_usage_bench.py`.
-* `./build/build/bin/ram_speed_bench` - a [memory-bandwidth utilization](https://unum.cloud/post/2021-12-21-macbook/) benchmark.
+* `./build/build/bin/mixed_ops` - speed test comparing insertions, removals and lookups across containers.
+* `./build/build/bin/ram_usage` - a benchmark analyzing the space overhead of each container, which shouldn't be called directly, only through `python ram_usage_bench.py`.
+* `./build/build/bin/ram_speed` - a [memory-bandwidth utilization](https://unum.cloud/post/2021-12-21-macbook/) benchmark.
